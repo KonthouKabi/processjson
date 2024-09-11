@@ -1,0 +1,106 @@
+{
+    "TEST_Log": {
+    "Test": {
+          "Data_Type": "Test",
+          "Test_Info": "Splitting Nested Json at leaf or Domain Level or in both as per requirement",
+          "Test_Version": "1"
+        },
+      "HW_Info": {
+        "HardwareInfoID": "A30B",
+        "Test_Revision": "1.2.0",
+        "Data_Date": "2023-08-04T16:45:58+05:30",
+        "File_Creation_Datetime": "2024-08-04T16:48:40+06:30",
+        "Monitor": {
+          "Monitor_Type": "Indian Monitor",
+          "HardwareInfoID": "A30B",
+          "Model_Name": "Test.1150",
+          "Index": 0
+        },
+        "Disk": [
+          {
+            "Read_Time": 0,
+            "Partition": [
+              {
+                "HardwareInfoID": "A30B",
+                "DiskId": "Test-177A",
+                "Index": 0,
+                "Size_MB": 499,
+                "Name": "Not Used"
+              },
+              {
+                "HardwareInfoID": "A30B",
+                "DiskId": "Test-177A",
+                "Index": 1,
+                "Size_MB": 100,
+                "Name": "Not Used"
+              },
+              {
+                "HardwareInfoID": "A30B",
+                "DiskId": "Test-177A",
+                "Index": 2,
+                "Size_MB": 243582,
+                "Name": "C:"
+              }
+            ],
+            "Idle_Time": 97,
+            "HardwareInfoID": "A30B",
+            "DiskId": "Test-177A",
+            "Index": 0,
+            "Bytes_Write_MB": 649,
+            "Size_MB": 244191,
+            "Make_Model": "Test Model 256GB",
+            "Write_Time": 0,
+            "Name": "DISK0",
+            "Bytes_Read_MB": 62766
+          },
+          {
+            "Read_Time": 0,
+            "Partition": {
+              "HardwareInfoID": "A30B",
+              "DiskId": "Test-177A",
+              "Index": 0,
+              "Size_MB": 14943,
+              "Name": "D:"
+            },
+            "Idle_Time": 98,
+            "HardwareInfoID": "A30B",
+            "DiskId": "Test-177A",
+            "Index": 1,
+            "Bytes_Write_MB": 0,
+            "Size_MB": 14943,
+            "Make_Model": "Test USB Device",
+            "Write_Time": 0,
+            "Name": "DISK1",
+            "Bytes_Read_MB": 0
+          }
+        ],
+        "Processor": [
+          {
+            "Index": 0,
+            "Min_ActiveFreq": 0.75,
+            "Max_ActiveFreq": 0.85,
+            "Avg_ActiveFreq": 0.80
+          },
+          {
+            "Index": 1,
+            "Min_ActiveFreq": 0.62,
+            "Max_ActiveFreq": 0.91,
+            "Avg_ActiveFreq": 0.72
+          },
+          {
+            "Index": 2,
+            "Min_ActiveFreq": 0.77,
+            "Max_ActiveFreq": 1.23,
+            "Avg_ActiveFreq": 0.99
+          },
+          {
+            "Index": 3,
+            "Min_ActiveFreq": 0.57,
+            "Max_ActiveFreq": 1.23,
+            "Avg_ActiveFreq": 0.95
+          }
+        ]
+      }
+    }
+  }
+  

@@ -1,0 +1,70 @@
+collection_date_utc,tgt_object_class,tgt_object_class_instance,tree_path,attribute_name,attribute_value
+,Test,Test,~>TEST_Log~>Test,Data_Type,Test
+,Test,Test,~>TEST_Log~>Test,Test_Info,Splitting Nested Json at leaf or Domain Level or in both as per requirement
+,Test,Test,~>TEST_Log~>Test,Test_Version,1
+,HW_Info,HW_Info,~>TEST_Log~>HW_Info,HardwareInfoID,A30B
+,HW_Info,HW_Info,~>TEST_Log~>HW_Info,Test_Revision,1.2.0
+,HW_Info,HW_Info,~>TEST_Log~>HW_Info,Data_Date,2023-08-04T16:45:58+05:30
+,HW_Info,HW_Info,~>TEST_Log~>HW_Info,File_Creation_Datetime,2024-08-04T16:48:40+06:30
+,Monitor,Monitor,~>TEST_Log~>HW_Info~>Monitor,Monitor_Type,Indian Monitor
+,Monitor,Monitor,~>TEST_Log~>HW_Info~>Monitor,HardwareInfoID,A30B
+,Monitor,Monitor,~>TEST_Log~>HW_Info~>Monitor,Model_Name,Test.1150
+,Monitor,Monitor,~>TEST_Log~>HW_Info~>Monitor,Index,0
+,Disk,Disk-1,~>TEST_Log~>HW_Info~>Disk-1,Read_Time,0
+,Partition,Partition-1,~>TEST_Log~>HW_Info~>Disk-1~>Partition-1,HardwareInfoID,A30B
+,Partition,Partition-1,~>TEST_Log~>HW_Info~>Disk-1~>Partition-1,DiskId,Test-177A
+,Partition,Partition-1,~>TEST_Log~>HW_Info~>Disk-1~>Partition-1,Index,0
+,Partition,Partition-1,~>TEST_Log~>HW_Info~>Disk-1~>Partition-1,Size_MB,499
+,Partition,Partition-1,~>TEST_Log~>HW_Info~>Disk-1~>Partition-1,Name,Not Used
+,Partition,Partition-2,~>TEST_Log~>HW_Info~>Disk-1~>Partition-2,HardwareInfoID,A30B
+,Partition,Partition-2,~>TEST_Log~>HW_Info~>Disk-1~>Partition-2,DiskId,Test-177A
+,Partition,Partition-2,~>TEST_Log~>HW_Info~>Disk-1~>Partition-2,Index,1
+,Partition,Partition-2,~>TEST_Log~>HW_Info~>Disk-1~>Partition-2,Size_MB,100
+,Partition,Partition-2,~>TEST_Log~>HW_Info~>Disk-1~>Partition-2,Name,Not Used
+,Partition,Partition-3,~>TEST_Log~>HW_Info~>Disk-1~>Partition-3,HardwareInfoID,A30B
+,Partition,Partition-3,~>TEST_Log~>HW_Info~>Disk-1~>Partition-3,DiskId,Test-177A
+,Partition,Partition-3,~>TEST_Log~>HW_Info~>Disk-1~>Partition-3,Index,2
+,Partition,Partition-3,~>TEST_Log~>HW_Info~>Disk-1~>Partition-3,Size_MB,243582
+,Partition,Partition-3,~>TEST_Log~>HW_Info~>Disk-1~>Partition-3,Name,C:
+,Disk,Disk-1,~>TEST_Log~>HW_Info~>Disk-1,Idle_Time,97
+,Disk,Disk-1,~>TEST_Log~>HW_Info~>Disk-1,HardwareInfoID,A30B
+,Disk,Disk-1,~>TEST_Log~>HW_Info~>Disk-1,DiskId,Test-177A
+,Disk,Disk-1,~>TEST_Log~>HW_Info~>Disk-1,Index,0
+,Disk,Disk-1,~>TEST_Log~>HW_Info~>Disk-1,Bytes_Write_MB,649
+,Disk,Disk-1,~>TEST_Log~>HW_Info~>Disk-1,Size_MB,244191
+,Disk,Disk-1,~>TEST_Log~>HW_Info~>Disk-1,Make_Model,Test Model 256GB
+,Disk,Disk-1,~>TEST_Log~>HW_Info~>Disk-1,Write_Time,0
+,Disk,Disk-1,~>TEST_Log~>HW_Info~>Disk-1,Name,DISK0
+,Disk,Disk-1,~>TEST_Log~>HW_Info~>Disk-1,Bytes_Read_MB,62766
+,Disk,Disk-2,~>TEST_Log~>HW_Info~>Disk-2,Read_Time,0
+,Partition,Partition,~>TEST_Log~>HW_Info~>Disk-2~>Partition,HardwareInfoID,A30B
+,Partition,Partition,~>TEST_Log~>HW_Info~>Disk-2~>Partition,DiskId,Test-177A
+,Partition,Partition,~>TEST_Log~>HW_Info~>Disk-2~>Partition,Index,0
+,Partition,Partition,~>TEST_Log~>HW_Info~>Disk-2~>Partition,Size_MB,14943
+,Partition,Partition,~>TEST_Log~>HW_Info~>Disk-2~>Partition,Name,D:
+,Disk,Disk-2,~>TEST_Log~>HW_Info~>Disk-2,Idle_Time,98
+,Disk,Disk-2,~>TEST_Log~>HW_Info~>Disk-2,HardwareInfoID,A30B
+,Disk,Disk-2,~>TEST_Log~>HW_Info~>Disk-2,DiskId,Test-177A
+,Disk,Disk-2,~>TEST_Log~>HW_Info~>Disk-2,Index,1
+,Disk,Disk-2,~>TEST_Log~>HW_Info~>Disk-2,Bytes_Write_MB,0
+,Disk,Disk-2,~>TEST_Log~>HW_Info~>Disk-2,Size_MB,14943
+,Disk,Disk-2,~>TEST_Log~>HW_Info~>Disk-2,Make_Model,Test USB Device
+,Disk,Disk-2,~>TEST_Log~>HW_Info~>Disk-2,Write_Time,0
+,Disk,Disk-2,~>TEST_Log~>HW_Info~>Disk-2,Name,DISK1
+,Disk,Disk-2,~>TEST_Log~>HW_Info~>Disk-2,Bytes_Read_MB,0
+,Processor,Processor-1,~>TEST_Log~>HW_Info~>Processor-1,Index,0
+,Processor,Processor-1,~>TEST_Log~>HW_Info~>Processor-1,Min_ActiveFreq,0.75
+,Processor,Processor-1,~>TEST_Log~>HW_Info~>Processor-1,Max_ActiveFreq,0.85
+,Processor,Processor-1,~>TEST_Log~>HW_Info~>Processor-1,Avg_ActiveFreq,0.8
+,Processor,Processor-2,~>TEST_Log~>HW_Info~>Processor-2,Index,1
+,Processor,Processor-2,~>TEST_Log~>HW_Info~>Processor-2,Min_ActiveFreq,0.62
+,Processor,Processor-2,~>TEST_Log~>HW_Info~>Processor-2,Max_ActiveFreq,0.91
+,Processor,Processor-2,~>TEST_Log~>HW_Info~>Processor-2,Avg_ActiveFreq,0.72
+,Processor,Processor-3,~>TEST_Log~>HW_Info~>Processor-3,Index,2
+,Processor,Processor-3,~>TEST_Log~>HW_Info~>Processor-3,Min_ActiveFreq,0.77
+,Processor,Processor-3,~>TEST_Log~>HW_Info~>Processor-3,Max_ActiveFreq,1.23
+,Processor,Processor-3,~>TEST_Log~>HW_Info~>Processor-3,Avg_ActiveFreq,0.99
+,Processor,Processor-4,~>TEST_Log~>HW_Info~>Processor-4,Index,3
+,Processor,Processor-4,~>TEST_Log~>HW_Info~>Processor-4,Min_ActiveFreq,0.57
+,Processor,Processor-4,~>TEST_Log~>HW_Info~>Processor-4,Max_ActiveFreq,1.23
+,Processor,Processor-4,~>TEST_Log~>HW_Info~>Processor-4,Avg_ActiveFreq,0.95
